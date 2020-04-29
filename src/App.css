@@ -1,0 +1,111 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+body {
+    position: fixed;
+    width: 50%;
+    height: 50%;
+    background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url("2.jpg");
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    -moz-filter: blur(25px);
+    filter: 0;
+    top: 10%;
+    left: 25%;
+    color: white;
+    padding: 80px 40px;
+}
+
+.MainQM {
+    text-decoration-color: antiquewhite;
+    -moz-text-decoration-color: antiquewhite;
+    top: 10%;
+    left: 25%;
+    width: 550px;
+    height: 310px;
+    padding: 30px 5px, linear-gradient(rgb(204, 204, 186, 0.6)), rgb(204, 204, 186, 0.6);
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.card {
+    min-width: 700px;
+    min-height: 450px;
+    justify-content: "space-around";
+    align-content: center;
+}
+
+.formControl {
+    width: 250px;
+    display: flex;
+}
+
+.TextField {
+    width: 250px;
+    display: flex;
+}
+
+.div1 {
+    margin-top: 40px;
+    margin-left: 80px;
+    justify-content: "space-around";
+    align-content: center;
+}
+
+.div2 {
+    display: "flex";
+    justify-content: "space-around";
+    align-content: "center";
+    margin-top: 45px;
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+
+.div3 {
+    display: "flex";
+    justify-content: "space-around";
+    align-content: "center";
+    margin-left: 80px;
+    margin-bottom: 45px;
+}
+
+.h1 {
+    text-emphasis-color: #0c0c0c;
+}
